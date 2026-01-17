@@ -2,7 +2,7 @@ import json, qrcode, random, string
 from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
 
-BOT_TOKEN = "8554584004:AAHpWmiz14A3ZCaf8rM6-DP6n34DOnZ7iFc"
+BOT_TOKEN = "8450818102:AAE71U1cePl-VvVjasr9M-pETcTrjWLtxXA"
 ADMIN_IDS = [6416481890, 5043245237]
 UPI_ID = "paytm.s1vdd6n@pty"
 
@@ -920,3 +920,4 @@ app.add_handler(MessageHandler(filters.PHOTO, receive_screenshot))
 
 print("Bot Running...")
 app.run_polling()
+
